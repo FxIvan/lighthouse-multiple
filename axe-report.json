@@ -1,0 +1,184 @@
+[
+  {
+    "id": "color-contrast",
+    "impact": "serious",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143",
+      "TTv5",
+      "TT13.c",
+      "EN-301-549",
+      "EN-9.1.4.3",
+      "ACT"
+    ],
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#f68e01",
+              "bgColor": "#fef4e6",
+              "contrastRatio": 2.19,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"bajalibros-card-book-info-redirect\">Comprar<span class=\"arrow-next\"></span></div>",
+                "target": [
+                  "div[aria-label=\"1 / 12\"] > .bajalibros-card-horizontal[target=\"_blank\"][rel=\"noopener noreferrer\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .bajalibros-card-book-info-redirect"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.19 (foreground color: #f68e01, background color: #fef4e6, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<div class=\"bajalibros-card-book-info-redirect\">Comprar<span class=\"arrow-next\"></span></div>",
+        "target": [
+          "div[aria-label=\"1 / 12\"] > .bajalibros-card-horizontal[target=\"_blank\"][rel=\"noopener noreferrer\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .bajalibros-card-book-info-redirect"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #f68e01, background color: #fef4e6, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#f68e01",
+              "bgColor": "#fef4e6",
+              "contrastRatio": 2.19,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"bajalibros-card-book-info-redirect\">Comprar<span class=\"arrow-next\"></span></div>",
+                "target": [
+                  "div[aria-label=\"2 / 12\"] > .bajalibros-card-horizontal[target=\"_blank\"][rel=\"noopener noreferrer\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .bajalibros-card-book-info-redirect"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.19 (foreground color: #f68e01, background color: #fef4e6, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<div class=\"bajalibros-card-book-info-redirect\">Comprar<span class=\"arrow-next\"></span></div>",
+        "target": [
+          "div[aria-label=\"2 / 12\"] > .bajalibros-card-horizontal[target=\"_blank\"][rel=\"noopener noreferrer\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .bajalibros-card-book-info-redirect"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #f68e01, background color: #fef4e6, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#169d5d",
+              "bgColor": "#e8f5ef",
+              "contrastRatio": 3.11,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"bajalibros-card-book-info-redirect free\">Descargar<span class=\"arrow-next\"></span></div>",
+                "target": [
+                  "div[aria-label=\"3 / 12\"] > .bajalibros-card-free.bajalibros-card-horizontal[target=\"_blank\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .free.bajalibros-card-book-info-redirect"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.11 (foreground color: #169d5d, background color: #e8f5ef, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<div class=\"bajalibros-card-book-info-redirect free\">Descargar<span class=\"arrow-next\"></span></div>",
+        "target": [
+          "div[aria-label=\"3 / 12\"] > .bajalibros-card-free.bajalibros-card-horizontal[target=\"_blank\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .free.bajalibros-card-book-info-redirect"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #169d5d, background color: #e8f5ef, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#169d5d",
+              "bgColor": "#e8f5ef",
+              "contrastRatio": 3.11,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"bajalibros-card-book-info-redirect free\">Descargar<span class=\"arrow-next\"></span></div>",
+                "target": [
+                  "div[aria-label=\"4 / 12\"] > .bajalibros-card-free.bajalibros-card-horizontal[target=\"_blank\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .free.bajalibros-card-book-info-redirect"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.11 (foreground color: #169d5d, background color: #e8f5ef, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<div class=\"bajalibros-card-book-info-redirect free\">Descargar<span class=\"arrow-next\"></span></div>",
+        "target": [
+          "div[aria-label=\"4 / 12\"] > .bajalibros-card-free.bajalibros-card-horizontal[target=\"_blank\"] > .bajalibros-card-horizontal-book-info > .bajalibros-card-horizontal-book-info-bottom > .free.bajalibros-card-book-info-redirect"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #169d5d, background color: #e8f5ef, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#9b9b9b",
+              "bgColor": "#ffffff",
+              "contrastRatio": 2.77,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.77 (foreground color: #9b9b9b, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<input class=\"recipe-feed-search-input\" type=\"text\" placeholder=\"¿Qué vas a cocinar hoy?\" value=\"\">",
+        "target": [
+          "input"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.77 (foreground color: #9b9b9b, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  }
+]
