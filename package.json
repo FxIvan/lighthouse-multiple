@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse-multiple",
+  "version": "1.0.0",
+  "description": "Este script permite ejecutar auditorías de rendimiento y accesibilidad en múltiples páginas web usando Lighthouse y Puppeteer. Genera reportes en formato JSON o HTML para cada URL definida.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Lighthouse"
+  ],
+  "author": "FxIvan",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^12.3.0",
+    "puppeteer": "^24.3.0"
+  }
+}
