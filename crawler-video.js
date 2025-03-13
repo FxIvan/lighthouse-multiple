@@ -1,4 +1,4 @@
-export const linkCrawlerVideo = [
+const linkCrawlerVideo = [
   "https://www.infobae.com/video",
   "https://www.infobae.com/video/playlist/lo-mas-visto/DmzM2FAl/",
   "https://www.infobae.com/video/playlist/lo-mas-visto/Bsyq882r/",
@@ -131,3 +131,5 @@ export const linkCrawlerVideo = [
   "https://www.infobae.com/video/playlist/trabajos-premiados/Zf6hUINE/",
   "https://www.infobae.com/video/playlist/trabajos-premiados/1GO5zRHM/"
 ]
+
+module.exports = { linkCrawlerVideo };
